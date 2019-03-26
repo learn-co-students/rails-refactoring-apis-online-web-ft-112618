@@ -11,5 +11,7 @@ class SessionsController < ApplicationController
     session[:username] = user_json["login"]
 
     redirect_to '/'
+
+    
   end
 end
